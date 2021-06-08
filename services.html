@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Services-Esquire</title>
+  <link rel="canonical" href="services.html">
+  <meta name="description" content="">
+  <meta http-equiv="Content-Type" content="text/html" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5">
+  <meta name="description" content="">
+  <link rel="apple-touch-icon" sizes="120x120" href="Resource/esquire-logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Resource/esquire-logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Resource/esquire-logo.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+    <!-- Esquire Font -->
+    <link href="//db.onlinewebfonts.com/c/fd096f5da7133c72f6df190c7c0fd593?family=Esquivel" rel="stylesheet" type="text/css"/>
+
+    <!-- Chap Font -->
+    <!-- <link rel="stylesheet" href="chap-font/966f3ed4332d5651f58424eb7c31d09f.ttf">
+    <link rel="stylesheet" href="fonts/Chap-Bold.ttf">
+    <link rel="stylesheet" href="fonts/Chap-Semibold.ttf"> -->
+    <link href="//db.onlinewebfonts.com/c/966f3ed4332d5651f58424eb7c31d09f?family=Chap+Regular" rel="stylesheet" type="text/css"/>
+
+  <!-- font-aweome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- External Javascript Files -->
+    <script type="text/javascript" src="js/components/Button.js"></script>
+    <script type="text/javascript" src="js/components/ContactModal.js"></script>
+    <script type="text/javascript" src="js/components/Intro.js"></script>
+    <script type="text/javascript" src="js/components/LottieAnis.js"></script>
+    <script type="text/javascript" src="js/components/Menu.js"></script>
+    <script type="text/javascript" src="js/components/Parallax.js"></script>
+    <script type="text/javascript" src="js/components/Partners.js"></script>
+    <script type="text/javascript" src="js/components/Preloader.js"></script>
+    <script type="text/javascript" src="js/components/ScrollAnimations.js"></script>
+    <script type="text/javascript" src="js/components/Smooth.js"></script>
+    <script type="text/javascript" src="js/gl/Gltransition.js"></script>
+    <script type="text/javascript" src="js/gl/shaders.js"></script>
+    <script type="text/javascript" src="js/highway/index.js"></script>
+    <script type="text/javascript" src="js/highway/renderers/about.js"></script>
+    <script type="text/javascript" src="js/highway/renderers/Default.js"></script>
+    <script type="text/javascript" src="js/highway/renderers/home.js"></script>
+    <script type="text/javascript" src="js/highway/renderers/training.js"></script>
+    <script type="text/javascript" src="js/highway/transitions/Default.js"></script>
+    <script type="text/javascript" src="js/highway/transitions/index.js"></script>
+    <script type="text/javascript" src="js/utils/blendEases.js"></script>
+    <script type="text/javascript" src="js/utils/EventBus.js"></script>
+    <script type="text/javascript" src="js/utils/GlobalRAF.js"></script>
+    <script type="text/javascript" src="js/utils/GlobalResize.js"></script>
+    <script type="text/javascript" src="js/utils/listener.js"></script>
+    <script type="text/javascript" src="js/utils/loadImages.js"></script>
+    <script type="text/javascript" src="js/utils/Pointer.js"></script>
+    <script type="text/javascript" src="js/utils/preload.js"></script>
+    <script type="text/javascript" src="js/utils/selector.js"></script>
+    <script type="text/javascript" src="js/vendor/SplitText.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/store.js"></script>
+    
+  	<!-- Template Main CSS File -->
+	  <link rel='stylesheet' type='text/css' href='css/style.css' />
+
+</head>
+
+<body>
+
+  <header class="c-site-head | js-site-head js-smooth-section">
+    <div class="c-site-head__inner o-row o-row--expanded">
+      <div class="c-site-head__left">
+        <a href="index.html" class="c-site-head__logo js-site-link">
+          <img src="Resource/esquiretch-logo.png" alt="Esquire" class="esq-logo">
+        </a>
+      </div>
+			<nav class="c-site-head__right">
+				<ul class="c-site-head__menu">
+					<li>
+						<a href="products.html" class="js-site-link ">Products</a>
+					</li>
+					<li>
+						<a href="services.html" class="js-site-link is-active">Services</a>
+					</li>
+					<li>
+						<a href="about.html" class="js-site-link ">About</a>
+					</li>
+					<li>
+						<a href="contact.html" class="js-site-link">Contact</a>
+					</li>
+					</ul>
+					<button type="button" class="c-site-head__contact | js-open-cmodal">
+						<span class="c-btn | js-outer-btn">
+							<div class="c-btn__inner">
+
+								<span class="c-btn__title">
+									<span class="c-btn__item c-btn__item--first"></span>
+									<span class="c-btn__item c-btn__item--last" aria-hidden="true"></span>
+								</span>
+
+								<span class="c-btn__icon">
+
+                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                    
+								</span>
+
+								<span class="c-btn__svg">
+									<svg width="10" height="10" viewBox="0 0 10 10" preserveAspectRatio="none">
+										<path class="js-path"
+											d="M 10,10 L 10,10 C 10,10 10,10 5,10 C 0,10 0,10 0,10 L 0,10 Z"></path>
+									</svg>
+								</span>
+
+							</div>
+						</span>
+					</button>
+
+				<button class="c-site-head__toggle | js-site-head__toggle">
+					<span class="c-btn">
+						<div class="c-btn__inner">
+							<span></span>
+							<span class="c-btn__icon">
+								<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In  -->
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px"
+									height="25px" viewBox="0 0 34 25" style="enable-background:new 0 0 34 25;"
+									xml:space="preserve">
+									<style type="text/css">
+										.st0 {
+											fill-rule: evenodd;
+											clip-rule: evenodd;
+											fill: #16215C;
+										}
+									</style>
+									<defs>
+									</defs>
+									<path id="Rounded_Rectangle_2_1_" class="st0" d="M2.5,0h29C32.88,0,34,1.12,34,2.5S32.88,5,31.5,5h-29C1.12,5,0,3.88,0,2.5
+              S1.12,0,2.5,0z M2.5,10h29c1.38,0,2.5,1.12,2.5,2.5S32.88,15,31.5,15h-29C1.12,15,0,13.88,0,12.5S1.12,10,2.5,10z M2.5,20h29
+              c1.38,0,2.5,1.12,2.5,2.5S32.88,25,31.5,25h-29C1.12,25,0,23.88,0,22.5S1.12,20,2.5,20z" />
+								</svg>
+							</span>
+						</div>
+					</span>
+				</button>
+			</nav>
+    </div>
+  </header>
+
+  <aside class="c-site-nav | js-site-nav">
+    <div class="c-site-nav__inner | js-site-nav__inner">
+      <button class="c-site-nav__close | js-site-nav__close">
+        <img
+          src="https://d33wubrfki0l68.cloudfront.net/826e310e2372fc88aba5fd3c587e9dacf18d0052/508e9/static/icons/plus-white.svg">
+      </button>
+      <a href="index.html" class="c-site-nav__logo js-site-link">
+        <img src="Resource/esquiretch-logo.png" alt="esquire">
+      </a>
+      <ul>
+        <li>
+          <a href="products.html" class="c-site-nav__link | js-site-nav__link ">Products</a>
+        </li>
+        <li>
+          <a href="services.html" class="c-site-nav__link | js-site-nav__link is-active">Services</a>
+        </li>
+        <li>
+          <a href="about.html" class="c-site-nav__link | js-site-nav__link ">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="c-site-nav__link | js-site-nav__link ">Contact</a>
+        </li>
+      </ul>
+      <button class="c-site-nav__contact | js-site-nav__contact js-open-cmodal">
+        <span>Contact</span>
+        <span><svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.8 32.8"
+            style="enable-background:new 0 0 32.8 32.8;" xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                fill: #101A56;
+              }
+            </style>
+            <path class="st0"
+              d="M32.2,8.8l-1.4,1.4c-0.8,0.8-2,0.8-2.7,0l-5.5-5.5c-0.8-0.8-0.8-2,0-2.7L24,0.6c0.8-0.8,2-0.8,2.7,0L32.2,6
+      C33,6.8,33,8,32.2,8.8z M25.4,15.6L8.2,32.8l-8.2,0v-8.2L17.2,7.4c0.8-0.8,2-0.8,2.7,0l5.5,5.5C26.1,13.6,26.1,14.8,25.4,15.6z">
+            </path>
+          </svg></span>
+      </button>
+    </div>
+  </aside>
+  <main class="o-main | js-smooth" data-router-wrapper>
+    <section class="o-page" data-router-view="training">
+      <div class="c-training-intro o-gutter | js-smooth-section">
+        <div class="o-row o-row--medium">
+          <div class="c-training-intro__bg">
+            <div class="o-aspect" style="--aspect: 77.5%"></div>
+            <img class="u-wct" src="Resource/service-trans2.png" alt="service">
+          </div>
+          <br>
+          <br>
+          <div class="c-training-intro__txt">
+            <span class="o-label o-label--no-line | js-t-fade">About our</span>
+            <h1 class="c-training-intro__title o-h1 | js-t-fade">Services</h1>
+            <div class="c-intro-txt">
+              <p class="u-color-text | js-t-fade">Our software teams help our customers build customized software -
+                everything from web to desktop to enterprise to mobile and beyond.We hire only the best. Our culture
+                helps us retain our talents and our skill development programs ensure that we are always on the top of
+                recent developments.</p>
+              <p class="u-color-text | js-t-fade">We have been building software for various industries since 2020.We
+                have worked with many technology platforms and have collaborated with many teams over these years.Our
+                clients get a team of their own – it is as simple as that. There is no red tape – the team adapts to the
+                working process of the client and are there as one of their own.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-training-included | js-smooth-section">
+        <div class="c-training-included__inner o-gutter o-padding-s">
+          <div class="o-row o-row--medium">
+            <div class="c-training-included__txt c-training-included__txt--wide" data-scroll="stagger">
+              <span class="o-label o-label--no-line | js-stagger">What Does Our Services Include?</span>
+              <p class="o-lead | js-stagger" style="font-family: chap regular;">We don’t specialize in particular
+                technologies, but we are definitely proficient and experienced with a wide array of tools and systems.
+                Every product is unique and we try to fit the right team with the right skills for that particular
+                product.</p>
+            </div>
+
+            <div class="c-training-included__txt" data-scroll="stagger">
+              <ul class="c-training-included-list">
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Ideation</span>
+                </li>
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Wireframe/Mockups</span>
+                </li>
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Prototype</span>
+                </li>
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Development</span>
+                </li>
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Data/Content</span>
+                </li>
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Quality Assurance</span>
+                </li>
+                <li class="c-training-included-list__item | js-stagger">
+                  <span class="c-training-included-list__check"><img
+                      src="https://d33wubrfki0l68.cloudfront.net/0b8948e1f154596feea94be9f80d39f8ece03acf/fa5d0/static/icons/check.svg"
+                      alt=""></span>
+                  <span class="c-training-included-list__title">Delivery</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+         <div class="c-training-included__bg">
+          <img
+            src="Resource/service-bg.png"
+            alt="">
+          <!-- <img
+            src="https://d33wubrfki0l68.cloudfront.net/1ac902c2d9578702fa0a593ec2fba5ee46d8ee06/fcf83/static/training/intro/lake_new.png"
+            alt="" class="u-wct">
+          <img
+            src="https://d33wubrfki0l68.cloudfront.net/95b8ffcb205a6d9f7fd4ae75d069b029c7c64370/6e6cc/static/training/intro/people-standing_new.png"
+            alt=""> -->
+        </div>
+
+      </div>
+      <div class="c-training-courses u-bg-darker-blue | js-smooth-section">
+
+        <div class="c-training-courses__sidebar">
+          <div class="c-training-courses__intro">
+            <div class="c-training-courses__intro-right">
+              <span>Our Services</span>
+              <span class="c-item__intro-arrow"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="o-gutter">
+          <div class="o-row">
+            <div class="c-training-courses-list">
+              <div class="c-training-courses-list__item">
+                <div class="c-training-courses-list__inner">
+                  <div class="c-training-courses-list__icon">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/survey-software-1-1105697.png"
+                      alt="Wheel">
+                  </div>
+                  <h3 class="o-h3">Software Services</h3>
+                  <ul class="u-color-text">
+                    <li>Kubernetes Overview (Architecture and concepts)</li>
+                    <li>Install a Local Development Environment</li>
+                    <li>Kubectl CLI overview</li>
+                    <li>Kubernetes Pods</li>
+                    <li>Deployment (Scaling, labelling, health checks)</li>
+                    <li>Kubernetes logging, monitoring and securing containers.</li>
+                    <li>Custom content (Typically, one “hello world” use case application)</li>
+                    <li>Kubernetes on AWS</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="c-training-courses-list__item">
+                <div class="c-training-courses-list__inner">
+                  <div class="c-training-courses-list__icon">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/digital-network-1683358-1442145.png"
+                      alt="Whale">
+                  </div>
+                  <h3 class="o-h3">Network Services</h3>
+                  <ul class="u-color-text">
+                    <li>Introduction to Docker, Kubernetes, and Cloud Native</li>
+                    <li>Docker Overview</li>
+                    <li>Docker CLI Overview</li>
+                    <li>Web apps and Docker</li>
+                    <li>Write Dockerfiles</li>
+                    <li>Build a monitoring stack</li>
+                    <li>Deploy apps to Swarm</li>
+                    <li>Create a Docker Build pipeline</li>
+                    <li>Docker Swarm & Kubernetes</li>
+                    <li>Sponsor Labs</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="c-training-courses-list__item">
+                <div class="c-training-courses-list__inner">
+                  <div class="c-training-courses-list__icon">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/workspace-272271.png" alt="Cloud">
+                  </div>
+                  <h3 class="o-h3">Co-Workspace Sharing</h3>
+                  <ul class="u-color-text">
+                    <li>Cloud Native Overview</li>
+                    <li>Modern application Concepts</li>
+                    <li>CNCF Landscape</li>
+                    <li>Native tooling in the cloud</li>
+                    <li>Your Cloud Native Journey</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="c-training-courses-list__item">
+                <div class="c-training-courses-list__inner">
+                  <div class="c-training-courses-list__icon">
+                    <img
+                      src="https://d33wubrfki0l68.cloudfront.net/4a9db2bcf953a4e3a9b8cfa11778d7d82c08b655/fe333/static/training/icons/infinity.svg"
+                      alt="Infinity">
+                  </div>
+                  <h3 class="o-h3">DevOps Training</h3>
+                  <ul class="u-color-text">
+                    <li>Cloud Native Tooling</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Infrastructure Automation</li>
+                    <li>Cloud Platform Services</li>
+                    <li>Best Practices</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="c-training-courses__divider">
+          <img
+            src="https://d33wubrfki0l68.cloudfront.net/ddda6ff65ebe01630865c0d9134c08de57d2e38a/cf50b/static/training/page/division.png"
+            alt="Divder">
+        </div>
+      </div>
+      <div class="c-training-contact u-bg-light-white | js-smooth-section">
+        <div class="c-training-contact__inner o-gutter">
+          <div class="c-training-contact__row o-row u-txt-center">
+            <p class="u-color-text">In case you haven’t found the answer to your question please feel free to <a
+                href="training.php.html#0" class="js-open-cmodal" data-router-disabled>Message us</a>, we will be happy
+              to help you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="u-bg-light-white | js-smooth-section">
+        <div class="c-site-foot o-gutter">
+          <div class="c-site-foot__inner o-row u-bg-white">
+            <div class="c-site-foot__content">
+              <h3 class="c-site-foot__title o-h4">
+                Esquire Technology is a Technology company focusing on Automation, Cloud, Containers, and DevOps
+              </h3>
+              <a href="index.html" class="c-site-foot__logo">
+                <img src="Resource/esquiretch-logo.png" alt="esquire">
+              </a>
+              <div class="c-site-foot__info">
+                <ul class="c-site-foot__menu">
+                  <li>
+                    <a href="products.html" class="js-site-link">Products</a>
+                  </li>
+                  <li>
+                    <a href="services.html" class="js-site-link is-active">Services</a>
+                  </li>
+                  <li>
+                    <a href="about.html" class="js-site-link">About</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" class="js-site-link">Contact</a>
+                  </li>
+                </ul>
+                <p class="c-site-foot__address u-color-text">
+                  <strong> Esquire Tower, 9th floor,<br>
+                    Shaheed Tajuddin Ahmed Avenue,<br>
+                    Dhaka 1208, Bangladesh.
+                  </strong>
+                </p>
+              </div>
+              <hr class="c-site-foot__line">
+              <div class="c-site-foot__bottom">
+                <div class="c-site-foot__social">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/Esquire-Group-891977987672273/" target="_blank">
+                        <img src="https://image.flaticon.com/icons/png/512/59/59439.png">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCt7kYboufwc6WaUwpeRD6xQ" target="_blank">
+                        <img
+                          src="data:image/png;base64,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">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/ekcl/" target="_blank">
+                        <img
+                          src="https://d33wubrfki0l68.cloudfront.net/a9966f51ebffce979128b3607cebf018da8500f0/45e92/static/footer/in.svg">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <p class="c-site-foot__copyright u-color-text">Copyright ©<span class="esquire-font"> Esquire Technology</span>, All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="c-cmodal | js-cmodal">
+    <div class="c-cmodal__inner | js-cmodal__inner">
+      <figure class="c-cmodal__img">
+        <button type="button" class="c-cmodal__close | js-close-cmodal">
+          <img
+            src="https://d33wubrfki0l68.cloudfront.net/826e310e2372fc88aba5fd3c587e9dacf18d0052/508e9/static/icons/plus-white.svg"
+            alt="close">
+        </button>
+        <img
+          src="https://d33wubrfki0l68.cloudfront.net/eec7366a6ec72d6ceea34b5f6ea3a0130df9835f/d4ef7/static/modal-img.png"
+          alt="">
+      </figure>
+      <div class="c-cmodal__content">
+        <h1 class="c-cmodal__title o-title u-txt-center">Let's talk</h1>
+        <p class="c-cmodal__sub-title u-txt-center">Find out how Esquire Technology can benefit you!</p>
+
+        <form id="contact-form" class="c-cform" method="post" action="https://formspree.io/info@56k.cloud">
+          <input type="text" class="c-cform__input" name="name" placeholder="Your name">
+          <input type="email" class="c-cform__input" name="email" placeholder="Your email">
+          <textarea class="c-cform__textarea" name="message" placeholder="Your Message..."></textarea>
+
+          <button type="submit" class="c-cform__submit">
+            <span class="c-btn | js-outer-btn">
+              <div class="c-btn__inner">
+
+                <span class="c-btn__title c-cform__submit-inner">
+                  <span class="c-btn__item c-btn__item--first">Let's Talk</span>
+                  <span class="c-btn__item c-btn__item--last">Let's Talk</span>
+                </span>
+
+                <span class="c-btn__svg">
+                  <svg width="10" height="10" viewBox="0 0 10 10" preserveAspectRatio="none">
+                    <path class="js-path" d="M 10,10 L 10,10 C 10,10 10,10 5,10 C 0,10 0,10 0,10 L 0,10 Z"></path>
+                  </svg>
+                </span>
+
+              </div>
+            </span>
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </aside>
+
+  <div class="c-pe | js-pe"></div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute; width: 0; height: 0"></svg>
+  <script src='https://d33wubrfki0l68.cloudfront.net/bundles/fe0a7a81fced0e85b96d2352ddb8c806c7d4ce05.js'></script>
+  <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+  <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+</body>
+
+</html>

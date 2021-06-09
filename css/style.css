@@ -3960,11 +3960,22 @@ p.esquire_font{
 }
 
 /* Md speech Section */
+.md-title{
+	font-size: 3rem;
+	text-align: center;
+	font-family: chap;
+	margin:100px 0px 10px 0px;
+  }
+
+.under-line{
+	border: 2px solid;
+	width: 500px;
+}
 
 .card-md {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	max-width: auto;
-	margin-top: 35px;
+	margin-top: 55px;
 	margin-bottom: 15px;
 	text-align: center;
 	font-family: arial;

@@ -269,7 +269,7 @@
 	 margin: 0;
 }
  a, li, p {
-	 font-size: 25px;
+	 font-size: 20px;
 }
  p {
 	 font-weight: 1000;
@@ -623,7 +623,7 @@ p.esquire_font{
 }
  @media screen and (min-width: 500px) {
 	 .o-h4 {
-		 font-size: calc(20.33333px + .73333vw);
+		 font-size: calc(15.33333px + .73333vw);
 	}
 }
  @media screen and (min-width: 2000px) {
@@ -639,7 +639,7 @@ p.esquire_font{
 }
  @media screen and (min-width: 500px) {
 	 .o-h5 {
-		 font-size: calc(15.66667px + .46667vw);
+		 font-size: calc(13.66667px + .46667vw);
 	}
 }
  @media screen and (min-width: 2000px) {
@@ -648,7 +648,7 @@ p.esquire_font{
 	}
 }
  .o-label {
-	 font-size: 2rem;
+	 font-size: 1.7rem;
 	 font-weight: 700;
 	 color: #f89673;
 	 margin-bottom: 1.25rem;
@@ -698,7 +698,7 @@ p.esquire_font{
 
 .contact-form{
 	font-family: chap regular;
-	font-size: 25px;
+	font-size: 20px;
 }
  .c-sweep {
 	 position: fixed;
@@ -3115,8 +3115,8 @@ p.esquire_font{
 
   .container-fluid {
     width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
     margin-right: auto;
     margin-left: auto;
 }

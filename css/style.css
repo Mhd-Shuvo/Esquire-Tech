@@ -529,7 +529,7 @@ p.esquire_font{
 	 .o-padding-s {
 		 padding-top: 4.5rem;
 		 padding-top: calc(var(--spacing)/2);
-		 padding-bottom: 4.5rem;
+		 padding-bottom: 1.5rem;
 		 padding-bottom: calc(var(--spacing)/2);
 	}
 }
@@ -591,7 +591,7 @@ p.esquire_font{
 }
  @media screen and (min-width: 500px) {
 	 .o-h2 {
-		 font-size: calc(23px + 2.6vw);
+		 font-size: calc(10px + 1.7vw);
 	}
 }
  @media screen and (min-width: 2000px) {
@@ -687,7 +687,7 @@ p.esquire_font{
 }
  @media screen and (min-width: 500px) {
 	 .o-lead {
-		 font-size: 28px;
+		 font-size: 22px;
 	}
 }
  @media screen and (min-width: 2000px) {
@@ -2597,7 +2597,8 @@ p.esquire_font{
 	 transform-origin: top left;
 	 color: #e7755f;
 	 font-weight: 700;
-	 margin-bottom: 4rem;
+	 padding-top: 30px;
+	 margin-bottom: 2rem;
 }
  @media (min-width: 1200px) {
 	 .c-about-focus__title {
@@ -3083,7 +3084,7 @@ p.esquire_font{
   .modules{
 	font-size: 1.5rem;
 	font-family: chap;
-	padding-top: 15px;
+	padding-top: 20px;
 	/* background-color: #e2eeee; */
   }
   

@@ -3958,3 +3958,29 @@ p.esquire_font{
         margin-left: 91.66667%;
     }
 }
+
+/* Md speech Section */
+
+.card-md {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: auto;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: arial;
+  }
+  
+  .title-md {
+	color: rgb(5, 163, 202);
+	font-size: 18px;
+	font-family: chap regular;
+  }
+  .speech-md {
+	  font-family: chap regular;
+	  font-size: 18px;
+	  text-align: center;
+	  padding: 20px;
+  }
+  .md-name{
+	  font-family: chap regular;
+  }

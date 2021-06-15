@@ -1735,8 +1735,8 @@ p.esquire_font{
 }
  .c-site-foot__title {
 	 width: 100%;
-	 margin-bottom: 3.15rem;
-	 margin-bottom: var(--spacing-xxs);
+	 margin-bottom: 1.15rem;
+	 /* margin-bottom: var(--spacing-xxs); */
 }
  @media (min-width: 700px) {
 	 .c-site-foot__title {
@@ -1835,7 +1835,7 @@ p.esquire_font{
 	 .c-site-foot__address {
 		 width: 35%;
 		 margin-bottom: 0;
-		 margin-right: -390px;
+		 margin-right: -380px;
 	}
 }
  .c-site-foot__line {

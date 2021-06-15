@@ -1373,6 +1373,7 @@ p.esquire_font{
 	 width: var(--size);
 	 height: var(--size);
 	 border-radius: calc(var(--size)/2);
+	 margin-left: 95px;
 }
  .c-icon svg {
 	 width: calc(var(--size)*.5);
@@ -2633,6 +2634,7 @@ p.esquire_font{
 	 width: 100%;
 	 margin-top: auto;
 	 min-height: 7rem;
+	 text-align: center;
 }
  .c-about-statement {
 	 padding-top: 0;

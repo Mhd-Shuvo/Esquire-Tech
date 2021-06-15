@@ -1008,15 +1008,20 @@ p.esquire_font{
 	}
 }
  .c-site-head {
-	 position: fixed;
+	 background: #fff;
+	 position:fixed;
+	 transition: all 0.5s;
 	 top: 0;
+	 right: 0;
 	 left: 0;
 	 width: 100%;
-	 margin-top: 2.5rem;
+	 /* margin-top: 2.5 rem; */
 	 padding-left: 6vw;
 	 padding-left: var(--gutter);
 	 padding-right: 6vw;
 	 padding-right: var(--gutter);
+	 padding-top: 5px;
+	 padding-bottom: 5px;
 	 z-index: 1000;
 }
  @media (min-width: 700px) {

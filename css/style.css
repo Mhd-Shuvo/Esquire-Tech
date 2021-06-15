@@ -1373,7 +1373,8 @@ p.esquire_font{
 	 width: var(--size);
 	 height: var(--size);
 	 border-radius: calc(var(--size)/2);
-	 margin-left: 95px;
+	 margin-left: 120px;
+	 
 }
  .c-icon svg {
 	 width: calc(var(--size)*.5);
@@ -1726,7 +1727,7 @@ p.esquire_font{
  .c-site-foot__content {
 	 position: relative;
 	 padding-left: 3.15rem;
-	 padding-left: var(--spacing-xxs);
+	 /* padding-left: var(--spacing-xxs); */
 	 display: flex;
 	 flex-wrap: wrap;
 	 justify-content: space-between;
@@ -1834,6 +1835,7 @@ p.esquire_font{
 	 .c-site-foot__address {
 		 width: 35%;
 		 margin-bottom: 0;
+		 margin-right: -390px;
 	}
 }
  .c-site-foot__line {
@@ -2632,9 +2634,10 @@ p.esquire_font{
 }
  .c-about-focus__headline {
 	 width: 100%;
-	 margin-top: auto;
+	 margin-top: 30px;
 	 min-height: 7rem;
 	 text-align: center;
+	 margin-left: 40px;
 }
  .c-about-statement {
 	 padding-top: 0;

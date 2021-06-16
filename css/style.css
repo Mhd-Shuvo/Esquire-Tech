@@ -1010,7 +1010,7 @@ p.esquire_font{
  .c-site-head {
 	 background: #fff;
 	 position:fixed;
-	 transition: all 0.5s;
+	 transition: all 0.3s;
 	 top: 0;
 	 right: 0;
 	 left: 0;
@@ -2519,6 +2519,7 @@ p.esquire_font{
 	 background-color: #fff;
 	 box-shadow: 0 1.66667rem 2.5rem 0 rgba(18, 26, 72, .08);
 	 height: 100%;
+	 text-align: center;
 }
  .c-training-courses-list__inner li {
 	 font-weight: 300;

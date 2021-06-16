@@ -1726,7 +1726,7 @@ p.esquire_font{
 }
  .c-site-foot__content {
 	 position: relative;
-	 padding-left: 3.15rem;
+	 padding-left: 3.15rem; 
 	 /* padding-left: var(--spacing-xxs); */
 	 display: flex;
 	 flex-wrap: wrap;
@@ -1735,12 +1735,12 @@ p.esquire_font{
 }
  .c-site-foot__title {
 	 width: 100%;
-	 margin-bottom: 1.15rem;
+	 margin-bottom: 2.15rem;
 	 /* margin-bottom: var(--spacing-xxs); */
 }
  @media (min-width: 700px) {
 	 .c-site-foot__title {
-		 width: 60%;
+		 width: 70%;
 	}
 }
  .c-site-foot__logo {
@@ -1761,7 +1761,7 @@ p.esquire_font{
 }
  @media (min-width: 700px) {
 	 .c-site-foot__info {
-		 width: 60%;
+		 width: 70%;
 		 display: flex;
 	}
 }
@@ -1835,7 +1835,7 @@ p.esquire_font{
 	 .c-site-foot__address {
 		 width: 35%;
 		 margin-bottom: 0;
-		 margin-right: -380px;
+		 margin-right: -350px;
 	}
 }
  .c-site-foot__line {

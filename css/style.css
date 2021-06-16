@@ -1010,7 +1010,7 @@ p.esquire_font{
  .c-site-head {
 	 background: #fff;
 	 position:fixed;
-	 transition: all 0.3s;
+	 transition: all 0.1s;
 	 top: 0;
 	 right: 0;
 	 left: 0;
@@ -1761,7 +1761,7 @@ p.esquire_font{
 }
  @media (min-width: 700px) {
 	 .c-site-foot__info {
-		 width: 70%;
+		 width: 100%;
 		 display: flex;
 	}
 }
@@ -1833,9 +1833,9 @@ p.esquire_font{
 }
  @media (min-width: 700px) {
 	 .c-site-foot__address {
-		 width: 35%;
+		 width: 25%;
 		 margin-bottom: 0;
-		 margin-right: -350px;
+		 /* margin-right: -350px; */
 	}
 }
  .c-site-foot__line {
